@@ -1,6 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Comic+Relief:wght@400;700&family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
 
 /* Shared styles */
+
+body {
+  background-color: #f1f1f3;
+}
+
+.body-container {
+  margin: 0 160px;
+}
+
 .button {
   background-color: #006a50; /* Green */
   border: none;
@@ -79,10 +88,12 @@ nav .navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 0 160px;
+  /* margin: 0 160px; */
 }
 .nav-bg-color {
   background-color: #f5f5f5;
+  margin: 0 -500%;
+  padding: 0 500% !important;
 }
 .nav-title {
   font-size: 32px;
@@ -99,7 +110,7 @@ nav .navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 0 160px;
+  /* margin: 0 160px; */
   background-color: #c6e4d6;
   border-radius: 24px;
   gap: 64px;
@@ -111,6 +122,7 @@ nav .navbar {
   font-size: 24px;
   line-height: 10px;
   margin-bottom: 0;
+  margin-top: 0;
   line-height: 55px;
 }
 
@@ -131,7 +143,40 @@ nav .navbar {
 .banner-img {
   width: 470px;
   height: 400px;
-  margin-top: 80px;
-  margin-right: 60px;
-  margin-bottom: 80px;
+  margin: 80px 60px 80px 0;
+}
+
+/* Pillars styles */
+.pillars {
+    margin: 80px 0;
+}
+.pillars-title {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.card-container {
+  display: flex;
+  gap: 24px;
+  justify-content: space-around;
+}
+
+.card {
+  background-color: white;
+  border: rgba(14, 14, 14, 0.15);
+  border-radius: 24px;
+  padding: 24px;
+}
+
+.card-pillars-title {
+  margin-top: 24px;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.pillars-description {
+  margin-top: 24px;
+  margin-bottom: 0;
+  font-size: 16px;
+  color:rgba(14, 14, 14, 0.5);
 }
