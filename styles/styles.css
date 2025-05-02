@@ -54,6 +54,50 @@ body {
   color: #006a50;
 }
 
+.button3 {
+  background-color: rgba(84, 144, 245, 1);
+  color: white;
+  border: 2px none;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 16px;
+  padding: 11px 20px;
+}
+
+.button3:hover {
+  background-color: white;
+  color: rgba(84, 144, 245, 1);
+}
+
+.button4 {
+  background-color: rgba(9, 161, 92, 1);
+  color: white;
+  border: 2px none;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 16px;
+  padding: 11px 20px;
+}
+
+.button4:hover {
+  background-color: white;
+  color: rgba(9, 161, 92, 1);
+}
+
+.button5 {
+  background-color: rgba(255, 194, 57, 1);
+  color: white;
+  border: 2px none;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 16px;
+  padding: 11px 20px;
+}
+
+.button5:hover {
+  background-color: white;
+  color: rgba(255, 194, 57, 1);
+}
 /* Fonts */
 
 .fira-sans-regular {
@@ -148,17 +192,17 @@ nav .navbar {
 
 /* Pillars styles */
 .pillars {
-    margin: 80px 0;
+  margin: 80px 0;
 }
 .pillars-title {
-    font-size: 30px;
-    font-weight: 700;
+  font-size: 30px;
+  font-weight: 700;
 }
 
 .card-container {
   display: flex;
   gap: 24px;
-  justify-content: space-around;
+  /* justify-content: space-around; */
 }
 
 .card {
@@ -166,6 +210,7 @@ nav .navbar {
   border: rgba(14, 14, 14, 0.15);
   border-radius: 24px;
   padding: 24px;
+  flex: 1;
 }
 
 .card-pillars-title {
@@ -178,5 +223,98 @@ nav .navbar {
   margin-top: 24px;
   margin-bottom: 0;
   font-size: 16px;
-  color:rgba(14, 14, 14, 0.5);
+  color: rgba(14, 14, 14, 0.5);
+  text-align: justify;
+}
+
+/* vision style */
+
+.vision {
+  margin-bottom: 80px;
+}
+
+.vision-title {
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 0;
+}
+
+.vision-description {
+  margin-top: 24px;
+  margin-bottom: 32px;
+  font-size: 16px;
+  color: rgba(14, 14, 14, 0.5);
+}
+
+.bg-blue {
+  background-color: rgba(84, 144, 245, 0.2);
+}
+
+.bg-green {
+  background-color: rgba(198, 228, 214, 1);
+}
+
+.bg-yellow {
+  background-color: rgba(247, 235, 207, 1);
+}
+.card-vision {
+  padding: 32px;
+  border-radius: 16px;
+  flex: 1;
+}
+
+.card-vision-title {
+  color: rgba(14, 14, 14, 0.8);
+  font-size: 20px;
+  font-weight: 700;
+  margin-top: 24px;
+  margin-bottom: 12px;
+}
+
+.card-vision-description {
+  color: rgba(14, 14, 14, 0.5);
+  margin-bottom: 24px;
+}
+
+/* quote style */
+
+.quote-container {
+  margin-top: 32px;
+  background-color: white;
+  border: rgba(14, 14, 14, 0.15);
+  border-radius: 16px;
+  position: relative;
+}
+
+.quote-img {
+  margin-left: 24px;
+  margin-top: 25px;
+  margin-bottom: 130px;
+}
+
+.quote {
+  float: left;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  z-index: 1000;
+  padding: 5px;
+  margin-left: 20px;
+  margin-top: 30px;
+}
+
+.quote-title {
+  margin-top: 12px;
+  margin-bottom: 4px;
+  color: rgba(14, 14, 14, 0.8)
+}
+
+.quote-description{
+  color: rgba(14, 14, 14, 0.6);
+  margin-right: 24px;
+}
+
+.quote-description1{
+  color: rgba(14, 14, 14, 0.6);
+  margin-top: 0;
 }
