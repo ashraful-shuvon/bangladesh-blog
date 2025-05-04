@@ -32,6 +32,7 @@ body {
   font-weight: 600;
   font-size: 18px;
   padding: 15px 30px;
+  
 }
 
 .button1:hover {
@@ -114,7 +115,6 @@ body {
   color: rgba(14, 14, 14, 0.8);
 }
 
-
 .button7 {
   background-color: #006a50;
   color: white;
@@ -164,12 +164,13 @@ nav .navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  /* margin: 0 160px; */
+  margin-right: 160px;
+  margin-left: 160px;
 }
 .nav-bg-color {
   background-color: #f5f5f5;
-  margin: 0 -500%;
-  padding: 0 500% !important;
+  margin: 0 -155px 0 -155px;
+
 }
 .nav-title {
   font-size: 32px;
@@ -621,7 +622,6 @@ input[placeholder="Other amount (taka)"] {
   margin-bottom: 24px;
 }
 
-
 .newsletter-description1 {
   font-size: 16px;
   font-weight: 400;
@@ -652,4 +652,38 @@ input[placeholder="Enter your email here"] {
   font-size: 16px;
   font-weight: 400;
   color: rgba(14, 14, 14, 0.3);
+}
+/* footer styles */
+
+.footer-title {
+  font-size: 32px;
+  font-weight: 700;
+  color: #0e0e0e;
+  margin-top: 50px;
+  margin-bottom: 32px;
+}
+
+hr {
+  margin: auto;
+  padding: 0;
+  color: rgba(14, 14, 14, 0.1);
+  width: 70%;
+  
+}
+.footer-bg-color {
+  background-color: white;
+  margin: 0 -155px 0 -155px;
+}
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.social {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  padding: 32px 0 50px 0;
 }
