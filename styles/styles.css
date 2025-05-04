@@ -320,7 +320,9 @@ nav .navbar {
 }
 
 /* opinion styles */
-
+.opinion {
+  margin-bottom: 80px;
+}
 .opinion-title{
   font-size: 40px;
   font-weight: 700;
@@ -426,4 +428,81 @@ nav .navbar {
 /* Change the background color of the dropdown button when the dropdown content is shown */
 .dropdown:hover .dropbtn {
   background-color: white;
+}
+
+/* news section styles */
+.news{
+  margin-bottom: 80px;
+}
+.news-title {
+  font-size: 40px;
+  font-weight: 700;
+  color: #0e0e0e;
+  margin-bottom: 0;
+}
+
+.news-description {
+  font-size: 16px;
+  color: rgba(14, 14, 14, 0.6);
+  margin-top: 24px;
+}
+
+.news-container {
+  display: flex;
+  flex-direction: row;
+  margin-top: 32px;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  border-radius: 16px;
+  gap: 32px;
+}
+
+.news-container.reverse {
+  flex-direction: row-reverse; /* Reversed: content first, then img */
+}
+
+.img-satelite{
+  margin: 48px 0px 48px 48px;
+}
+
+.news-container img {
+  border-radius: 24px;
+}
+
+.news-content{
+  margin: 56px 48px 56px 0px;
+}
+
+.news-content-title {
+  font-size: 32px;
+  font-weight: 700;
+  color: rgba(14, 14, 14, 0.8);
+  margin: 0;
+}
+
+.content-img {
+  margin: 12px 0px;
+}
+
+.date-time{
+  margin: 0;
+  font-size: 16px;
+  font-weight: 400;
+  color: rgba(14, 14, 14, 0.5);
+}
+
+.news-content-description{
+  font-size: 16px;
+  font-weight: 400;
+  color: rgba(14, 14, 14, 0.5);
+  margin: 12px 0px 32px 0px;
+}
+
+.img-satelite.reverse {
+  margin: 48px 48px 48px 0px;
+}
+
+.news-content.reverse {
+  margin: 56px 0px 56px 48px;
 }
